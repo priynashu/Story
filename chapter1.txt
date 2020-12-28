@@ -1,0 +1,16 @@
+My name is Priyanshu Shah. I am dreaming to become a Software developer
+
+heroku commands to host web on heroku as a server;
+git init
+git add .
+git commit -m"any text we like"
+heroku create (it will create a new host/link on heroku)
+git heroku push master (final)
+
+
+if we want to change something then just do
+git add .(to add changes)
+git commit -m ""(to commit the changes)
+git push heroku master(to send the changed files)
+
+
