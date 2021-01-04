@@ -1,16 +1,33 @@
-My name is Priyanshu Shah. I am dreaming to become a Software developer
+
 
 heroku commands to host web on heroku as a server;
 git init
-git add .
-git commit -m"any text we like"
+git add . //It will take all the files to the stagging area bcoz if we dont want to add files to repo
+
+git commit -m"any text we like" // It will add the files from stagging area to localRepository	
 heroku create (it will create a new host/link on heroku)
 git heroku push master (final)
 
 
 if we want to change something then just do
-git add .(to add changes)
+git add .(to add changes) it is used to add every file in the folder
 git commit -m ""(to commit the changes)
 git push heroku master(to send the changed files)
+
+
+To add a file by Git Locally in the folder (it means that we are making our folder as git repo)
+git add filename or git add . (to add all the files) It will take all the files to the stagging area bcoz if we dont want to add files to repo
+git commit -m "Any message" (to commit file under version Control)
+git status (to check the status of the files on the repo)
+git log (it will shows the commit details like time and id) // always preferred to use after commit code
+now we have a saved a version of code in the git locally on the folder
+if we change some files and then we want messed up so we can get the last version than use some commands but we have to make sure that we have'nt
+make the commit command the version can be get back before using commit command
+
+After changing:=
+
+git status //Which will show the modified file
+git diff filename.extension (it will show the changes we have made)
+git checkout filename.extension (to get the file back)
 
 
