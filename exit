@@ -1,0 +1,53 @@
+[1mdiff --git a/chapter1.txt b/chapter1.txt[m
+[1mindex fbc9578..fbf2819 100644[m
+[1m--- a/chapter1.txt[m
+[1m+++ b/chapter1.txt[m
+[36m@@ -1,16 +1,36 @@[m
+[32m+[m[32mWhy we use Git?[m
+[32m+[m[32mBcoz it helps uns to save different versions of code like after saving a version and then making changes int the files we want the data back[m
+[32m+[m[32mthan we can the last version files done by git checkout[m[41m [m
+ My name is Priyanshu Shah. I am dreaming to become a Software developer[m
+ [m
+ heroku commands to host web on heroku as a server;[m
+ git init[m
+[31m-git add .[m
+[31m-git commit -m"any text we like"[m
+[32m+[m[32mgit add . //It will take all the files to the stagging area bcoz if we dont want to add files to repo[m
+[32m+[m
+[32m+[m[32mgit commit -m"any text we like" // It will add the files from stagging area to localRepository[m[41m	[m
+ heroku create (it will create a new host/link on heroku)[m
+ git heroku push master (final)[m
+ [m
+ [m
+ if we want to change something then just do[m
+[31m-git add .(to add changes)[m
+[32m+[m[32mgit add .(to add changes) it is used to add every file in the folder[m
+ git commit -m ""(to commit the changes)[m
+ git push heroku master(to send the changed files)[m
+ [m
+ [m
+[32m+[m[32mTo add a file by Git Locally in the folder (it means that we are making our folder as git repo)[m
+[32m+[m[32mgit add filename or git add . (to add all the files) It will take all the files to the stagging area bcoz if we dont want to add files to repo[m
+[32m+[m[32mgit commit -m "Any message" (to commit file under version Control)[m
+[32m+[m[32mgit status (to check the status of the files on the repo)[m
+[32m+[m[32mgit log (it will shows the commit details like time and id) // always preferred to use after commit code[m
+[32m+[m[32mnow we have a saved a version of code in the git locally on the folder[m
+[32m+[m[32mif we change some files and then we want messed up so we can get the last version than use some commands but we have to make sure that we have'nt[m
+[32m+[m[32mmake the commit command the version can be get back before using commit command[m
+[32m+[m
+[32m+[m[32mAfter changing:=[m
+[32m+[m
+[32m+[m[32mgit status //Which will show the modified file[m
+[32m+[m[32mgit diff filename.extension (it will show the changes we have made)[m
+[32m+[m[32mgit checkout filename.extension (to get the file back)[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/chapter3.txt b/chapter3.txt[m
+[1mindex 618f58c..427d57f 100644[m
+[1m--- a/chapter3.txt[m
+[1m+++ b/chapter3.txt[m
+[36m@@ -1 +1 @@[m
+[31m-Currently I am Pursuing IT with IELTS [m
+\ No newline at end of file[m
+[32m+[m[32mCurrently I am Pursuing IT with IELTS and also App Developing[m
+\ No newline at end of file[m
